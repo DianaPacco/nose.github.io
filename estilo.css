@@ -1,0 +1,31 @@
+body {
+    background-color: #ffcccc; /* Fondo rosado claro */
+}
+
+div {
+    padding: 30px;
+    background-color: #ffe6e6; /* Fondo rosa claro */
+    margin: 50px auto; /* Centra el div horizontalmente */
+    width: 80%; /* Ancho del div */
+    max-width: 500px; /* Ancho máximo del div */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+input[type="text"], input[type="button"] {
+    padding: 9px;
+    font-size: 18px;
+    border: solid 1px #ff99cc; /* Borde rosa */
+    width: calc(100% - 20px); /* Ancho del input menos el padding */
+    margin-bottom: 10px; /* Espacio entre elementos */
+}
+
+input[type="button"] {
+    background-color: #ff6699; /* Fondo rosado */
+    color: #fff; /* Texto blanco */
+    width: 100%; /* Ancho completo */
+}
+
+input[type="button"]:hover {
+    background-color: #ff3366; /* Cambio de color al pasar el ratón */
+}
